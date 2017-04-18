@@ -1,1 +1,1 @@
-console: bundle exec ruby thomas_magnum.rb
+web: bundle exec ruby thomas_magnum.rb
