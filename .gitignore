@@ -1,5 +1,6 @@
 exec.sh
 vendor/*
+.env
 
 *.gem
 *.rbc
