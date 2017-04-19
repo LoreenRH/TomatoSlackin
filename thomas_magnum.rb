@@ -1,12 +1,12 @@
 require 'slack-ruby-bot'
 
 class ThomasBot < SlackRubyBot::Bot
-	puts 'coucou 1'
   command 'pomodoro' do |client, data, match|
-  	puts 'coucou 2'
-    client.say(text: 'Hey there ;) !', channel: data.channel)
+    client.say(text: 'Hey there ;) Timer Started !', channel: data.channel)
+    sleep(10) #arbitrary stop to simulate pomodoro
+    client.say(channel:data.channel, text: 'Time up! Good work!', gif: 'random funny')
+    pid = fork{ exec 'mpg123', '-q', 'crickets.mp3'}
   end
 end
 
-puts 'coucou'
 ThomasBot.run
