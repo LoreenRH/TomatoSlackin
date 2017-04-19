@@ -18,4 +18,4 @@ Thread.new do
   end
 end
 
-run SlackMathbot::Web
+run ThomasMagnum::Web
