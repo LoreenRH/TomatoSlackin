@@ -19,7 +19,7 @@ To run on Heroku :
 - heroku create
 - heroku git:remote -a [name of heroku app]
 - heroku config:add SLACK_API_TOKEN=..
-- git push heroku heroku-branch:master
+- git push -f heroku heroku-branch:master
 
 To use :
 - [your bot name] calculate --> prints 4
