@@ -11,7 +11,6 @@ To install :
 
 
 To run locally :
-- Delete gemlock/.env
 - install Foreman (gem install foreman -v 0.82.0)
 - Run $foreman start
 
