@@ -3,7 +3,7 @@ vendor/*
 .env
 .bundle/*
 .DS_Store
-Gemfile.lock
+
 
 *.gem
 *.rbc
