@@ -10,7 +10,7 @@ class ThomasBot < SlackRubyBot::Bot
     seconds_in_pomodoro_session = minutes_in_pomodoro_session * 60
 
     pomodoro_timer = timers.after(seconds_in_pomodoro_session) do
-      client.say(text: "<@#{data.user}> just finished a Pomodoro session!", channel: data.channel)
+      client.say(text: "<@#{data.user}> just finished a Pomodoro session!", channel: data.channel, gif: 'tomato')
     end
 
     timers.wait
