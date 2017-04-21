@@ -4,7 +4,7 @@ To install :
 
 - Create a bot on slack, get the API token
 
-- Git clone --> git clone -b heroku-branch git@github.com:amontourdeprogrammer/TomatoSlackin.git
+- Git clone --> git clone git@github.com:amontourdeprogrammer/TomatoSlackin.git
 - $cd TomatoSlackin/
 - create a .env file with SLACK_API_TOKEN=...
 - run $bundle install
